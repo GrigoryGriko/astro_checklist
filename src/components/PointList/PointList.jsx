@@ -4,7 +4,8 @@ import './PoinList.css'
 
 
 function PointList(props) {
-  const {userId, id, title, completed, list, setList} = props.item;
+  const {userId, id, title, completed} = props.item;
+  const {list, setList} = props;
 
   function saveMark(id) {
     const newList = list.slice();
