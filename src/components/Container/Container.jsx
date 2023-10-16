@@ -6,21 +6,22 @@ import PointList from '../PointList/PointList';
 function Container() {
   const [list, setList] = useState([]);
   
-  useEffect(() => {
-    api.getTodoList()
-    .then((res) => {
-      setList(res);
-      console.log(res);
-    })
-    .catch((err) => {
-      console.log(err);
-    })
-  }, [])
-  
+  const oldList = JSON.parse(localStorage.getItem("todoList"));
 
-  /*useEffect(() => {
-    console.log(list);
-  }, [list])*/
+  useEffect(() => {
+    if (oldList) {
+      setList(oldList);
+    } else {
+      api.getTodoList()
+      .then((res) => {
+        setList(res);
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+    }
+  }, [])
 
   return (
     <div className="container__list">

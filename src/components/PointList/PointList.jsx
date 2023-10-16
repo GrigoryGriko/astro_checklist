@@ -22,7 +22,7 @@ function PointList(props) {
   }
   
   useEffect(() => { 
-    console.log(list);
+    localStorage.setItem("todoList", JSON.stringify(list))
   }, [list])
 
   return (
