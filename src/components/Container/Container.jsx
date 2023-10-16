@@ -5,7 +5,9 @@ import PointList from '../PointList/PointList';
 
 function Container() {
   const [list, setList] = useState([]);
-  api.getTodoList()
+  
+  useEffect(() => {
+    api.getTodoList()
     .then((res) => {
       setList(res);
       console.log(res);
@@ -13,6 +15,8 @@ function Container() {
     .catch((err) => {
       console.log(err);
     })
+  }, [])
+  
 
   /*useEffect(() => {
     console.log(list);
@@ -24,6 +28,8 @@ function Container() {
         <PointList
           key={`pl${item.id}`}
           item={item}
+          list={list}
+          setList={setList}
         />
       )) : ''}
     </div>
