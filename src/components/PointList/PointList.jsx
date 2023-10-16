@@ -9,14 +9,16 @@ function PointList(props) {
 
   function saveMark(id) {
     const newList = list.slice();
-    setList(
-      newList.forEach((item, index, arr) => {
-        if (arr[index].id === id) {
-          arr[index].completed = !arr[index].completed;
-          return;
-        }
-      })
-    )
+
+    newList.map((item, index, arr) => {
+      if (arr[index].id === id) {
+        return arr[index].completed = !arr[index].completed;
+      } else {
+        return item;
+      }
+    })
+
+    setList(newList);
   }
   
   useEffect(() => { 
