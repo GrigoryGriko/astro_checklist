@@ -6,9 +6,11 @@ import PointList from '../PointList/PointList';
 function Container() {
   const [list, setList] = useState([]);
   
-  const oldList = JSON.parse(localStorage.getItem("todoList"));
+
 
   useEffect(() => {
+    const oldList = JSON.parse(localStorage.getItem("todoList"));
+    
     if (oldList) {
       setList(oldList);
     } else {
