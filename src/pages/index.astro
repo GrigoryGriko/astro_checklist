@@ -1,22 +1,14 @@
 ---
-import React, {useState, useEffect} from 'react';
-import * as api from '../utils/Api.js';
 // Welcome to Astro! Everything between these triple-dash code fences
 // is your "component frontmatter". It never runs in the browser.
 console.log('This runs in your terminal, not the browser!');
 
 import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container';
 
 //const [todoList, setTodoList] = useState('');
 
-api.getTodoList()
-  .then((res) => {
-    console.log(res);
-  })
-  .catch((err) => {
-    console.log(err);
-  })
 ---
 <Layout>
-  <p>data</p>
+  <Container client:load/>
 </Layout>
