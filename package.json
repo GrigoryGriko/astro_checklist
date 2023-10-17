@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "astro dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview"
@@ -17,10 +19,13 @@
     "@astrojs/react": "^3.0.3",
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.13",
-    "astro": "^3.2.4",
+    "astro": "^2.10.15",
     "axios": "^1.5.1",
     "events": "^3.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
