@@ -10,7 +10,7 @@ function Container() {
 
   useEffect(() => {
     const oldList = JSON.parse(localStorage.getItem("todoList"));
-    
+
     if (oldList) {
       setList(oldList);
     } else {
