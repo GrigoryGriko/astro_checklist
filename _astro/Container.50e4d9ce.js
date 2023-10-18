@@ -1,0 +1,9 @@
+import{r as l}from"./index.ed373d49.js";/* empty css                       */var d={exports:{}},a={};/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var y=l,j=Symbol.for("react.element"),v=Symbol.for("react.fragment"),E=Object.prototype.hasOwnProperty,L=y.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,g={key:!0,ref:!0,__self:!0,__source:!0};function m(e,o,n){var t,r={},s=null,c=null;n!==void 0&&(s=""+n),o.key!==void 0&&(s=""+o.key),o.ref!==void 0&&(c=o.ref);for(t in o)E.call(o,t)&&!g.hasOwnProperty(t)&&(r[t]=o[t]);if(e&&e.defaultProps)for(t in o=e.defaultProps,o)r[t]===void 0&&(r[t]=o[t]);return{$$typeof:j,type:e,key:s,ref:c,props:r,_owner:L.current}}a.Fragment=v;a.jsx=m;a.jsxs=m;d.exports=a;var i=d.exports;function O(e){return e.ok?e.json():Promise.reject(`Ошибка: ${e.status} ${e.statusText}`)}function S(){return fetch("https://jsonplaceholder.typicode.com/todos",{method:"GET",headers:{"Content-Type":"application/json"}}).then(e=>O(e))}function k(e){const{userId:o,id:n,title:t,completed:r}=e.item,{list:s,setList:c}=e;function _(h){const f=s.slice();f.map((x,p,u)=>u[p].id===h?u[p].completed=!u[p].completed:x),c(f)}return l.useEffect(()=>{localStorage.setItem("todoList",JSON.stringify(s))},[s]),i.jsxs("div",{className:"container__item",children:[i.jsx("input",{type:"checkbox",defaultChecked:r,onChange:()=>_(n)})," ",i.jsxs("p",{className:"container__name",children:[n,". ",t]})]})}function T(){const[e,o]=l.useState([]);return l.useEffect(()=>{const n=JSON.parse(localStorage.getItem("todoList"));n?o(n):S().then(t=>{o(t),console.log(t)}).catch(t=>{console.log(t)})},[]),i.jsx("div",{className:"container__list",children:e?e.map((n,t)=>i.jsx(k,{item:n,list:e,setList:o},`pl${n.id}`)):""})}export{T as default};
