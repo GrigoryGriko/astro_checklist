@@ -4,7 +4,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  //site: "https://grigorygriko.github.io",
-  base: "/src",
+  /*site: "https://grigorygriko.github.io",
+  base: "/astro_checklist",*/
   integrations: [react()]
 });
