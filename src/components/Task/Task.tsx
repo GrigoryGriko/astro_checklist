@@ -1,9 +1,9 @@
 import * as api from '../../utils/Api';
 import {useState, useEffect} from 'react';
-import './PoinList.css'
+import './Task.css'
 
 
-function PointList(props) {
+function Task(props) {
   const {userId, id, title, completed} = props.item;
   const {list, setList} = props;
 
@@ -40,4 +40,4 @@ function PointList(props) {
   )
 }
 
-export default PointList;
+export default Task;
