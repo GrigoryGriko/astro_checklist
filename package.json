@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://grigorygriko.github.io/astro_checklist/",
+  "homepage": "https://grigorygriko.github.io/astro_checklist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "astro dev",
