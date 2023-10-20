@@ -1,6 +1,7 @@
 import * as api from '../../utils/Api';
 import {useState, useEffect} from 'react';
 import Task from '../Task/Task';
+import AddTask from '../AddTask/AddTAsk';
 
 
 function Container() {
@@ -31,6 +32,8 @@ function Container() {
 
   return (
     <div className="container__list">
+      <AddTask />
+
       {list ? list.map((item, index) => (
         <Task
           key={`pl${item.id}`}
