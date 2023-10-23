@@ -34,6 +34,7 @@ function Container() {
   
   useEffect(() => { 
     localStorage.setItem("todoList", JSON.stringify(list))
+    console.log(list);
   }, [list])
 
   return (

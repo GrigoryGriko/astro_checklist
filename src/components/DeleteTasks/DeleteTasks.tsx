@@ -9,13 +9,16 @@ function DeleteTasks(props) {
   function handleClickDeleteTasks(e) {
     e.preventDefault();
 
-    api.deleteTasks(id)
+    const newList = list.filter((item) => !item.completed)
+    setList(newList);
+
+    /*api.deleteTask(id)
       .then((listData) => {
-        
+
       })
       .catch((err) => {
         console.log(err)
-      })
+      })*/
   }
 
   return (

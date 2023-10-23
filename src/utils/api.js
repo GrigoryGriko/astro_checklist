@@ -44,7 +44,7 @@ export function completeTask(id, completed) {
   }).then(res => _getResponseData(res))
 }
 
-export function deleteTasks(id) {
+export function deleteTask(id) {
   return fetch(`${baseUrl}todos/${id}`, {
     method: 'DELETE',
     headers: {
