@@ -45,7 +45,7 @@ function Task(props) {
     <div className="container__item">
       <input 
         type="checkbox"
-        defaultChecked={completed}
+        checked={completed}
         onChange={() => handlePutCheckbox(num)}
       ></input>
       &nbsp;
