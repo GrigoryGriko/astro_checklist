@@ -22,7 +22,6 @@ function Container() {
       api.getTodoList()
       .then((res) => {
         setList(res.todos);
-        console.log(res.todos);
       })
       .catch((err) => {
         console.log(err);
@@ -45,7 +44,8 @@ function Container() {
 
       {list ? list.map((item, index) => (
         <Task
-          key={`pl${item.id}`}
+          key={`pl${index}`}
+          num={index + 1}
           item={item}
           list={list}
           setList={setList}

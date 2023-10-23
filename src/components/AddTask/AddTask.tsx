@@ -7,7 +7,7 @@ function AddTask(props) {
   const {list, setList} = props;
 
   const [textTask, setTextTask] = useState('');
-  const userId = 26;
+  const userId = 1;
   
   function handleChange(e) {
     const value = e.target.value;
@@ -17,19 +17,17 @@ function AddTask(props) {
 
   function handleClickAddtask(e) {
     e.preventDefault();
-    
-    const newList = list.slice();
-    newList.push({id: 999, textTask: textTask, completed: false, userId: userId});
-    
-    setList(newList);
 
-    /*api.addTask(textTask, false, userId)
+    api.addTask(textTask, false, userId)
       .then((listData) => {
-        setList(listData);
+        const newList = list.slice();
+        newList.push(listData);
+
+        setList(newList);
       })
       .then((err) => {
         console.log(err)
-      })*/
+      })
   }
 
   return (
