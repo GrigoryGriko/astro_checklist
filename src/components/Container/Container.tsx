@@ -6,7 +6,7 @@ import AddTask from '../AddTask/AddTask';
 
 function Container() {
   const [list, setList] = useState([]);
-  const [maxCountList, setMaxCountList] = useState(10);
+  //const [maxCountList, setMaxCountList] = useState(10);
 
   /*function listLimiter(list) {
     return list.slice().splice(0, maxCountList);
@@ -30,9 +30,18 @@ function Container() {
     }
   }, [])
 
+  
+  
+  useEffect(() => { 
+    localStorage.setItem("todoList", JSON.stringify(list))
+  }, [list])
+
   return (
     <div className="container__list">
-      <AddTask />
+      <AddTask 
+        list={list}
+        setList={setList}
+      />
 
       {list ? list.map((item, index) => (
         <Task

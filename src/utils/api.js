@@ -18,12 +18,16 @@ export function getTodoList() {
   }).then(res => _getResponseData(res))
 }
 
-export function addTask(id, todo, completed, userId) {
-  return fetch(`${baseUrl}todos`, {
+export function addTask(todo, completed, userId) {
+  return fetch(`${baseUrl}todos/add`, {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json'
     },
-    body: JSON.stringify({})
+    body: JSON.stringify({
+      todo: todo,
+      completed: completed,
+      userId: userId,
+    })
   }).then(res => _getResponseData(res))
 }

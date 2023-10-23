@@ -20,10 +20,6 @@ function Task(props) {
 
     setList(newList);
   }
-  
-  useEffect(() => { 
-    localStorage.setItem("todoList", JSON.stringify(list))
-  }, [list])
 
   return (
     <div className="container__item">
