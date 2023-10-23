@@ -25,7 +25,7 @@ function AddTask(props) {
 
         setList(newList);
       })
-      .then((err) => {
+      .catch((err) => {
         console.log(err)
       })
   }
