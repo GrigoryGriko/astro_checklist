@@ -4,7 +4,7 @@ import './Task.css'
 
 
 function Task(props) {
-  const {userId, id, title, completed} = props.item;
+  const {userId, id, todo, completed} = props.item;
   const {list, setList} = props;
 
   function saveMark(id) {
@@ -34,7 +34,7 @@ function Task(props) {
       ></input>
       &nbsp;
       <p className="container__name">
-        {id}. {title}
+        {id}. {todo}
       </p>
     </div>
   )

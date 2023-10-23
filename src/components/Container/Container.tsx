@@ -1,7 +1,7 @@
 import * as api from '../../utils/Api';
 import {useState, useEffect} from 'react';
 import Task from '../Task/Task';
-import AddTask from '../AddTask/AddTAsk';
+import AddTask from '../AddTask/AddTask';
 
 
 function Container() {
@@ -21,8 +21,8 @@ function Container() {
     } else {
       api.getTodoList()
       .then((res) => {
-        setList(listLimiter(res));
-        console.log(res);
+        setList(res.todos);
+        console.log(res.todos);
       })
       .catch((err) => {
         console.log(err);
