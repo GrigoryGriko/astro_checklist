@@ -11,10 +11,7 @@ function DeleteTasks(props) {
 
     api.deleteTasks(id)
       .then((listData) => {
-        const newList = list.slice();
-        newList.push(listData);
-
-        setList(newList);
+        
       })
       .catch((err) => {
         console.log(err)
