@@ -1,5 +1,7 @@
 const baseUrl = 'https://dummyjson.com/';
 
+const countLimit = "?limit=10&skip=0";
+
 function _getResponseData(res) {
   if (!res.ok) {
       return Promise.reject(`Ошибка: ${res.status} ${res.statusText}`);
@@ -8,7 +10,7 @@ function _getResponseData(res) {
 }
   
 export function getTodoList() {
-  return fetch(`${baseUrl}todos`, {
+  return fetch(`${baseUrl}todos${countLimit}`, {
     method: 'GET',
     headers: {
     'Content-Type': 'application/json'
@@ -16,7 +18,7 @@ export function getTodoList() {
   }).then(res => _getResponseData(res))
 }
 
-export function addTask(userId, id, title, completed) {
+export function addTask(id, todo, completed, userId) {
   return fetch(`${baseUrl}todos`, {
     method: 'POST',
     headers: {

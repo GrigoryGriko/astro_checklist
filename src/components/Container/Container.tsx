@@ -8,16 +8,16 @@ function Container() {
   const [list, setList] = useState([]);
   const [maxCountList, setMaxCountList] = useState(10);
 
-  function listLimiter(list) {
+  /*function listLimiter(list) {
     return list.slice().splice(0, maxCountList);
-  }
+  }*/
 
   useEffect(() => {
     const oldList = JSON.parse(localStorage.getItem("todoList"));
 
 
     if (oldList) {
-      setList(listLimiter(oldList));
+      setList(oldList);
     } else {
       api.getTodoList()
       .then((res) => {
