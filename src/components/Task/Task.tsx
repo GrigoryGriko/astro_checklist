@@ -7,7 +7,20 @@ function Task(props) {
   const {userId, id, todo, completed} = props.item;
   const {num, list, setList} = props;
 
-  function saveMark(id) {
+  function saveMark(num) {
+    const newList = list.slice();
+
+    newList.map((item, index, arr) => {
+      if (index === num - 1) {
+        return arr[index].completed = !arr[index].completed;
+      } else {
+        return item;
+      }
+    })
+
+    setList(newList);
+
+    /*
     const newList = list.slice();
 
     newList.map((item, index, arr) => {
@@ -17,8 +30,7 @@ function Task(props) {
         return item;
       }
     })
-
-    setList(newList);
+    */
   }
 
   return (
@@ -26,7 +38,7 @@ function Task(props) {
       <input 
         type="checkbox"
         defaultChecked={completed}
-        onChange={() => saveMark(id)}
+        onChange={() => saveMark(num)}
       ></input>
       &nbsp;
       <p className="container__name">
