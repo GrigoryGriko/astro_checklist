@@ -43,3 +43,12 @@ export function completeTask(id, completed) {
     })
   }).then(res => _getResponseData(res))
 }
+
+export function deleteTasks(id) {
+  return fetch(`${baseUrl}todos/${id}`, {
+    method: 'DELETE',
+    headers: {
+    'Content-Type': 'application/json'
+    }
+  }).then(res => _getResponseData(res))
+}

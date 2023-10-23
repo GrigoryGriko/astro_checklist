@@ -31,7 +31,7 @@ function AddTask(props) {
   }
 
   return (
-    <form className="container__input">
+    <form className="container__input-addtask">
       <input 
         type="text"
         value={textTask}

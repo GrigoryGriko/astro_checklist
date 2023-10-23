@@ -2,6 +2,7 @@ import * as api from '../../utils/Api';
 import {useState, useEffect} from 'react';
 import Task from '../Task/Task';
 import AddTask from '../AddTask/AddTask';
+import DeleteTasks from '../DeleteTasks/DeleteTasks';
 
 
 function Container() {
@@ -37,6 +38,10 @@ function Container() {
 
   return (
     <div className="container__list">
+      <DeleteTasks
+        list={list}
+        setList={setList}
+      />
       <AddTask 
         list={list}
         setList={setList}
