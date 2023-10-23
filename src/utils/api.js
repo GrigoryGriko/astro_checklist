@@ -31,3 +31,15 @@ export function addTask(todo, completed, userId) {
     })
   }).then(res => _getResponseData(res))
 }
+
+export function completeTask(id, completed) {
+  return fetch(`${baseUrl}todos/${id}`, {
+    method: 'PUT',
+    headers: {
+    'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      completed: completed,
+    })
+  }).then(res => _getResponseData(res))
+}

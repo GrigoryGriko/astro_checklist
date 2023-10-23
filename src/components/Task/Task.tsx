@@ -7,9 +7,9 @@ function Task(props) {
   const {userId, id, todo, completed} = props.item;
   const {num, list, setList} = props;
 
-  function saveMark(num) {
+  function handlePutCheckbox(num) {
     const newList = list.slice();
-
+  
     newList.map((item, index, arr) => {
       if (index === num - 1) {
         return arr[index].completed = !arr[index].completed;
@@ -21,15 +21,23 @@ function Task(props) {
     setList(newList);
 
     /*
-    const newList = list.slice();
-
-    newList.map((item, index, arr) => {
-      if (arr[index].id === id) {
-        return arr[index].completed = !arr[index].completed;
-      } else {
-        return item;
-      }
-    })
+    api.completeTask(id, completed)
+      .then((listData) => {
+        const newList = list.slice();
+  
+        newList.map((item, index, arr) => {
+          if (index === num - 1) {
+            return arr[index].completed = !arr[index].completed;
+          } else {
+            return item;
+          }
+        })
+    
+        setList(newList);
+      })
+      .catch((err) => {
+        console.log(err)
+      })
     */
   }
 
@@ -38,7 +46,7 @@ function Task(props) {
       <input 
         type="checkbox"
         defaultChecked={completed}
-        onChange={() => saveMark(num)}
+        onChange={() => handlePutCheckbox(num)}
       ></input>
       &nbsp;
       <p className="container__name">
