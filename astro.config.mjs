@@ -1,10 +1,11 @@
-import { defineConfig } from 'astro/config';
-
+import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
+
+import netlify from "@astrojs/netlify/functions";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://grigorygriko.github.io",
-  base: "/astro_checklist",
-  integrations: [react()]
+  output: 'hybrid',
+  integrations: [react()],
+  adapter: netlify()
 });
