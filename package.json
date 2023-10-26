@@ -1,32 +1,32 @@
 {
   "name": "checklist-astro",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "homepage": "https://grigorygriko.github.io/astro_checklist",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "astro dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@astrojs/react": "^3.0.3",
-    "@types/react": "^18.2.28",
-    "@types/react-dom": "^18.2.13",
-    "astro": "^2.10.15",
-    "axios": "^1.5.1",
-    "events": "^3.3.0",
+    "@astrojs/netlify": "^2.3.0",
+    "@astrojs/react": "^2.2.1",
+    "@astrojs/solid-js": "^2.2.0",
+    "@nanostores/react": "^0.7.1",
+    "@nanostores/solid": "^0.4.2",
+    "@types/react": "^18.2.9",
+    "@types/react-dom": "^18.2.4",
+    "astro": "^2.6.1",
+    "nanostores": "^0.9.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-confetti-explosion": "^2.1.2",
+    "react-dom": "^18.2.0",
+    "solid-js": "^1.7.6"
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "prettier": "2.8.8"
   }
 }
