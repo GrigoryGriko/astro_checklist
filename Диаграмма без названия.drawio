@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T13:46:55.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="TXHMkRgkL0yvXyhVKR8u" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T13:47:43.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="7OVKUnGE1OkaYtnoJSE8" version="24.0.7" type="github">
   <diagram name="Страница — 1" id="iKRGOs-kZH4LMtyvEoL7">
     <mxGraphModel dx="1195" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,13 +52,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6E6YvKyOXuB3MpSZR_gs-28" value="Если на родительском уровене 0, а текущий 1, то нельзя" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6E6YvKyOXuB3MpSZR_gs-28" value="Если на родительском уровне 0, а на текущем 1, то нельзя" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="60" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6E6YvKyOXuB3MpSZR_gs-29" value="Если на родительском уровне 1, а текущий 0, то нельзя" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6E6YvKyOXuB3MpSZR_gs-29" value="Если на родительском уровне 1, а на текущем 0, то нельзя" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="60" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6E6YvKyOXuB3MpSZR_gs-30" value="Если на родительском уровне 1 и текущий 1, то можно" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6E6YvKyOXuB3MpSZR_gs-30" value="Если на родительском уровне 1 и на текущем 1, то можно" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="445" y="60" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6E6YvKyOXuB3MpSZR_gs-31" value="Region/Objects" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
