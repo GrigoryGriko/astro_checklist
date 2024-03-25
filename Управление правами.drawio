@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T13:10:49.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="YmOrWU-BjyY473Chzx98" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T14:13:23.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="34qCdEOPYXHjoY8Mi4Vs" version="24.0.7" type="github">
   <diagram name="Страница — 1" id="eoBhKLuC5TunS1IDavNl">
     <mxGraphModel dx="1687" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,13 +17,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGFdMOWLCZTHge6s0m2C-26" value="создание элемента" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TGFdMOWLCZTHge6s0m2C-27" value="создание права" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGFdMOWLCZTHge6s0m2C-29" value="протестировать" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="500" y="90" width="170" height="20" as="geometry" />
+        <mxCell id="TGFdMOWLCZTHge6s0m2C-31" value="&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 17px;&quot;&gt;V&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TGFdMOWLCZTHge6s0m2C-32" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
