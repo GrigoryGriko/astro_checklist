@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T15:24:21.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="G7odv9eiSbiDQCLeoUDR" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T15:25:23.214Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="AgScKvqQ_KpACYh3Rpcr" version="24.1.0" type="github">
   <diagram name="Страница — 1" id="PDdaQzykBOreic6AAFiH">
-    <mxGraphModel dx="1687" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,8 +110,8 @@
         <mxCell id="KFAvze0ehvl6uoNBKwx2-43" value="command или telemetry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="740" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KFAvze0ehvl6uoNBKwx2-44" value="пользователь шлет in_use (block или stay)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="255" y="745" width="145" height="60" as="geometry" />
+        <mxCell id="KFAvze0ehvl6uoNBKwx2-44" value="пользователь шлет in_use (userId, {block или stay})" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="745" width="185" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
