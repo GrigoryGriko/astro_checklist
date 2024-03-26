@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T14:24:03.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="8nr7lNAbQHEcNP6B8QQU" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T14:37:29.485Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="dxdXK4kW2_LWtXi-Tm6A" version="24.1.0" type="github">
   <diagram name="Страница — 1" id="PDdaQzykBOreic6AAFiH">
     <mxGraphModel dx="1434" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,8 +67,11 @@
         <mxCell id="KFAvze0ehvl6uoNBKwx2-21" value="соединение" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="237.5" width="90" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="KFAvze0ehvl6uoNBKwx2-24" value="Чтобы клиент получил данные о ровере, он должен сделать запрос (как он это делает)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;транспорт на это отправляет свои данные&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KFAvze0ehvl6uoNBKwx2-24" value="Чтобы клиент получил данные о ровере, он должен сделать запрос&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;транспорт на это отправляет свои данные&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="45" y="340" width="225" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KFAvze0ehvl6uoNBKwx2-27" value="in_use: block, autopilot, stay" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="470" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
