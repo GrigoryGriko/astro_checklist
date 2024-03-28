@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T15:07:38.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="0adTwqIkKLFCIrqj5deC" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T15:08:33.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="WgsvSooFFPhfcr4TivlM" version="24.2.0" type="github">
   <diagram name="Страница — 1" id="PDdaQzykBOreic6AAFiH">
     <mxGraphModel dx="1434" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -177,7 +177,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9auZhLa56EZGkthZAqke-1" value="пользователь берет под управление ровер" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="41.25" width="120" height="95" as="geometry" />
+          <mxGeometry x="1410" y="54.38" width="120" height="68.75" as="geometry" />
         </mxCell>
         <mxCell id="9auZhLa56EZGkthZAqke-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9auZhLa56EZGkthZAqke-2" target="9auZhLa56EZGkthZAqke-15">
           <mxGeometry relative="1" as="geometry">
@@ -185,7 +185,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9auZhLa56EZGkthZAqke-2" value="отправляется inuse:vehicle" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1805" y="43.75" width="120" height="90" as="geometry" />
+          <mxGeometry x="1805" y="57.5" width="120" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="9auZhLa56EZGkthZAqke-8" value="На сервере идет общий интервал" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1620" y="362.5" width="110" height="60" as="geometry" />
@@ -309,6 +309,9 @@
             <mxPoint x="2130" y="102.5" as="sourcePoint" />
             <mxPoint x="2229" y="151" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9auZhLa56EZGkthZAqke-45" value="пользователь отправляет команду роверу" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="173.75" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
