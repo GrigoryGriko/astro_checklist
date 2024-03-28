@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T15:00:12.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="6GGmZjCxBzkM5SfsJyRf" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T15:02:45.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="EX85t_mvb9SN_xgbF7TQ" version="24.2.0" type="github">
   <diagram name="Страница — 1" id="PDdaQzykBOreic6AAFiH">
-    <mxGraphModel dx="1195" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -193,13 +193,7 @@
         <mxCell id="9auZhLa56EZGkthZAqke-4" value="в массиве vehicles на сервере меняется in_use на userId" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2180" y="630" width="140" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="9auZhLa56EZGkthZAqke-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9auZhLa56EZGkthZAqke-7" target="9auZhLa56EZGkthZAqke-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9auZhLa56EZGkthZAqke-7" value="Отправка команды управления или перехвата&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="362.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="9auZhLa56EZGkthZAqke-8" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9auZhLa56EZGkthZAqke-8" value="На сервере идет общий интервал" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1680" y="362.5" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9auZhLa56EZGkthZAqke-10" value="если проверка по таймеру показала, что пользователь не отсылал запрос более N секунд назад" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -261,6 +255,27 @@
         </mxCell>
         <mxCell id="9auZhLa56EZGkthZAqke-27" value="устанавливаем на сервере в массиве vehicles in_user = userId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2090" y="286.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9auZhLa56EZGkthZAqke-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9auZhLa56EZGkthZAqke-27" target="9auZhLa56EZGkthZAqke-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="350" as="sourcePoint" />
+            <mxPoint x="2030" y="316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9auZhLa56EZGkthZAqke-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9auZhLa56EZGkthZAqke-30" target="9auZhLa56EZGkthZAqke-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9auZhLa56EZGkthZAqke-30" value="делаем что-то что через время даст понять была ли отправлена 5 секунд команда перехвата или нет" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="362.5" width="120" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9auZhLa56EZGkthZAqke-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9auZhLa56EZGkthZAqke-17" target="9auZhLa56EZGkthZAqke-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="326" as="sourcePoint" />
+            <mxPoint x="2055" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9auZhLa56EZGkthZAqke-32" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="543.75" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
