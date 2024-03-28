@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T15:09:17.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="DL5oTWXTXgv_gTasuTAg" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T15:09:59.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="OwTAf-vSZ5_d5T9sNYZp" version="24.2.0" type="github">
   <diagram name="Страница — 1" id="PDdaQzykBOreic6AAFiH">
-    <mxGraphModel dx="1434" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,7 +235,7 @@
             <mxPoint x="2300" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9auZhLa56EZGkthZAqke-25" value="возвращаем 403" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9auZhLa56EZGkthZAqke-25" value="возвращаем ошибку доступа 403" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2280" y="426.25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9auZhLa56EZGkthZAqke-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" target="9auZhLa56EZGkthZAqke-27" parent="1">
@@ -256,8 +256,8 @@
         <mxCell id="9auZhLa56EZGkthZAqke-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9auZhLa56EZGkthZAqke-30" target="9auZhLa56EZGkthZAqke-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9auZhLa56EZGkthZAqke-30" value="делаем что-то что через время даст понять была ли отправлена 5 секунд команда перехвата или нет" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="502.5" width="120" height="87.5" as="geometry" />
+        <mxCell id="9auZhLa56EZGkthZAqke-30" value="делаем что-то что через время даст понять была ли отправлена N секунд команда перехвата или нет" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="502.5" width="140" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="9auZhLa56EZGkthZAqke-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9auZhLa56EZGkthZAqke-17" target="9auZhLa56EZGkthZAqke-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -277,7 +277,7 @@
         <mxCell id="9auZhLa56EZGkthZAqke-37" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9auZhLa56EZGkthZAqke-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2000" y="570" as="sourcePoint" />
-            <mxPoint x="1780" y="500" as="targetPoint" />
+            <mxPoint x="1760" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9auZhLa56EZGkthZAqke-40" value="Если у пользователя status=&#39;admin&#39;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
