@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T11:54:09.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="b7HyUTjEKOQK9QaFXgQA" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T12:24:42.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="HXB_FhQK44JcRV7Vg3J5" version="24.2.1" type="github">
   <diagram name="Страница — 1" id="PDdaQzykBOreic6AAFiH">
     <mxGraphModel dx="1593" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -388,6 +388,9 @@
             <mxGeometry x="2840" y="1370" width="260" height="240" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="dFtadkcdsyIqLcSveW0u-32" value="ehiclesService.updateLiveDataVehicle - обновляет массив ровера" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="1450" width="220" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
