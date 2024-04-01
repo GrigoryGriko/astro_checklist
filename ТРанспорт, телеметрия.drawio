@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T10:05:40.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="lO3iZN9dNS4fmR_hDECb" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T10:05:43.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="Ffb3y56kzgtAF0uRBK05" version="24.2.1" type="github">
   <diagram name="Страница — 1" id="PDdaQzykBOreic6AAFiH">
     <mxGraphModel dx="1593" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,7 +357,7 @@
           <mxGeometry x="2870" y="330" width="250" height="170" as="geometry" />
         </mxCell>
         <mxCell id="dFtadkcdsyIqLcSveW0u-18" value="в данном случае telemtry запрашивает данные из массива.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Узнать обновляетс ил как-то массив vehicles&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2860" y="542.5" width="190" height="117.5" as="geometry" />
+          <mxGeometry x="2720" y="526" width="190" height="117.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
