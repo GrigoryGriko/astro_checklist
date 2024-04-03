@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T13:29:30.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="xD47gE7daTWOjda25dzJ" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T13:31:22.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="Z-lv8o9XLDHbQM-vO6Tn" version="24.2.1" type="github">
   <diagram name="Страница — 1" id="N2BBvwz7dYq2u03mfkgw">
     <mxGraphModel dx="1434" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,11 +28,17 @@
         <mxCell id="JpSsH_3zQxGx-G5elUN2-6" value="send(data);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="230" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JpSsH_3zQxGx-G5elUN2-9" target="JpSsH_3zQxGx-G5elUN2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="initWebsocketApi(value, socket);" id="JpSsH_3zQxGx-G5elUN2-9">
           <mxCell style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
             <mxGeometry x="580" y="370" width="200" height="50" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-11" value="ws = new WebSocket(`ws://localhost:1984/api/ws?src=${value.streamName}`);" style="whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="365" width="450" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
