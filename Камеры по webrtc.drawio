@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T13:14:51.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" version="24.2.1" etag="uhs-zHUoIGK_LX4CDO41" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T13:29:30.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="xD47gE7daTWOjda25dzJ" version="24.2.1" type="github">
   <diagram name="Страница — 1" id="N2BBvwz7dYq2u03mfkgw">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JpSsH_3zQxGx-G5elUN2-1" target="JpSsH_3zQxGx-G5elUN2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-1" value="Интерйфес пользователя" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JpSsH_3zQxGx-G5elUN2-2" target="JpSsH_3zQxGx-G5elUN2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;vehicleSocket.emit( &quot;webrtc/offer&quot;)&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;br&gt;data = {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;streamName: streamNameLOL,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;id: vehicleListRState.id,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;type: &quot;webrtc/offer&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;value: await getCompleteOffer(webrtc),&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;clientId: vehicleSocket.id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;}&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JpSsH_3zQxGx-G5elUN2-4" target="JpSsH_3zQxGx-G5elUN2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-4" value="Server слушает запрос и делает эмит webrtc&lt;br&gt;&lt;br&gt;&lt;div&gt;на COMMUNICATE&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="65" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JpSsH_3zQxGx-G5elUN2-6" target="JpSsH_3zQxGx-G5elUN2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-6" value="send(data);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="initWebsocketApi(value, socket);" id="JpSsH_3zQxGx-G5elUN2-9">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+            <mxGeometry x="580" y="370" width="200" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
