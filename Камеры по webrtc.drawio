@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T14:23:26.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="qzcBluykJ31qN6DtkQtS" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T14:23:31.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="_MMNG8Xw5NtyRdNkWYFn" version="24.2.2" type="github">
   <diagram name="Страница — 1" id="N2BBvwz7dYq2u03mfkgw">
     <mxGraphModel dx="1687" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="JpSsH_3zQxGx-G5elUN2-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JpSsH_3zQxGx-G5elUN2-6" target="JpSsH_3zQxGx-G5elUN2-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JpSsH_3zQxGx-G5elUN2-6" value="Communicate делает&amp;nbsp;&lt;div&gt;send(data);&lt;/div&gt;&lt;div&gt;Далее -&amp;gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="JpSsH_3zQxGx-G5elUN2-6" value="Communicate делает&amp;nbsp;&lt;div&gt;send(data);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Далее -&amp;gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="230" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JpSsH_3zQxGx-G5elUN2-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JpSsH_3zQxGx-G5elUN2-9" target="JpSsH_3zQxGx-G5elUN2-11" edge="1">
