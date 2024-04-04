@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T15:39:22.719Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="UAPdsZfqlCfhKq7BqZrT" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-04T10:07:13.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="SgZ5nwfrzSsSzRijYFdm" version="24.2.2" type="github">
   <diagram name="Страница — 1" id="N2BBvwz7dYq2u03mfkgw">
-    <mxGraphModel dx="1195" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="1993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
         <mxCell id="JpSsH_3zQxGx-G5elUN2-27" value="&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 11px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214); font-size: 11px;&quot;&gt;const&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(79, 193, 255); font-size: 11px;&quot;&gt;manager&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212); font-size: 11px;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214); font-size: 11px;&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;Manager&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(79, 193, 255); font-size: 11px;&quot;&gt;config&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;apiLink&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;Сокет сервера (:3006)&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214); font-size: 11px;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: rgb(79, 193, 255); font-size: 11px;&quot;&gt;socket&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 11px;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(79, 193, 255); font-size: 11px;&quot;&gt;manager&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 11px;&quot;&gt;socket&lt;/span&gt;(&lt;span style=&quot;color: rgb(206, 145, 120); font-size: 11px;&quot;&gt;&quot;/vehicleApi&quot;&lt;/span&gt;, {&lt;/div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;/vehicleApi&quot; - это типо канала, комнаты&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="250" y="225" width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZGbc0jheP5GNqV0KJYv2-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.138;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.667;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="JpSsH_3zQxGx-G5elUN2-27" target="JpSsH_3zQxGx-G5elUN2-9">
+        <mxCell id="ZGbc0jheP5GNqV0KJYv2-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.138;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.667;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="JpSsH_3zQxGx-G5elUN2-27" target="JpSsH_3zQxGx-G5elUN2-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="510" as="sourcePoint" />
             <mxPoint x="440" y="460" as="targetPoint" />
@@ -71,6 +71,55 @@
               <mxPoint x="580" y="340" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-6" value="vehicleSocket.emit( &#39;webrtc/offer&#39;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-330" width="200" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="vehicleSocket.on(&#39;webrtc/candidate&#39;)" id="eRhAELS6R_RbNOVsheLl-7">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1637.5" y="-380" width="275" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="socket.on(&#39;webrtc/offer&#39;, VehiclesController.getWebrtcData);" id="eRhAELS6R_RbNOVsheLl-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1637.5" y="-170" width="340" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-9" value="vehicleSocket.on(&#39;webrtc/answer&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="-290" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-10" value="Пользователь" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-11" value="Сервер&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="-250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-10" target="eRhAELS6R_RbNOVsheLl-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="100" as="sourcePoint" />
+            <mxPoint x="1230" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-6" target="eRhAELS6R_RbNOVsheLl-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1395" y="-280" as="sourcePoint" />
+            <mxPoint x="1445" y="-330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-11" target="eRhAELS6R_RbNOVsheLl-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1670" y="-260" as="sourcePoint" />
+            <mxPoint x="1620" y="-390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-16" target="eRhAELS6R_RbNOVsheLl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-16" value="socket.on(&#39;webrtc/offer&#39;, VehiclesController.getWebrtcData);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-160" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-18" value="VehiclesService.getWebrtc(data)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-60" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
