@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T10:07:13.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="SgZ5nwfrzSsSzRijYFdm" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-04T10:09:11.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="XnDpFy6UgHpQMd_U_e6L" version="24.2.2" type="github">
   <diagram name="Страница — 1" id="N2BBvwz7dYq2u03mfkgw">
     <mxGraphModel dx="1509" dy="1993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,10 +88,10 @@
         <mxCell id="eRhAELS6R_RbNOVsheLl-9" value="vehicleSocket.on(&#39;webrtc/answer&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1630" y="-290" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eRhAELS6R_RbNOVsheLl-10" value="Пользователь" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eRhAELS6R_RbNOVsheLl-10" value="Пользователь" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
           <mxGeometry x="1060" y="-420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eRhAELS6R_RbNOVsheLl-11" value="Сервер&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eRhAELS6R_RbNOVsheLl-11" value="Сервер&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
           <mxGeometry x="1060" y="-250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-10" target="eRhAELS6R_RbNOVsheLl-6">
@@ -118,9 +118,17 @@
         <mxCell id="eRhAELS6R_RbNOVsheLl-16" value="socket.on(&#39;webrtc/offer&#39;, VehiclesController.getWebrtcData);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="-160" width="340" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-18" target="eRhAELS6R_RbNOVsheLl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-18" value="VehiclesService.getWebrtc(data)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1020" y="-60" width="200" height="40" as="geometry" />
         </mxCell>
+        <UserObject label="io.of(&#39;/vehicleApi&#39;).to(vehicle.socket_id).emit(&#39;webrtc&#39;, data);" id="eRhAELS6R_RbNOVsheLl-21">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="950" y="10" width="340" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
