@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T10:29:30.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="MQbpZb-Xrgp5tY4zUmuI" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-04T12:21:03.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="ryY1qrhFlyv12_izFjXU" version="24.2.2" type="github">
   <diagram name="Страница — 1" id="N2BBvwz7dYq2u03mfkgw">
-    <mxGraphModel dx="1062" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -188,6 +188,9 @@
         <mxCell id="eRhAELS6R_RbNOVsheLl-41" value="send(data);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2335" y="494" width="90" height="36" as="geometry" />
         </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-42" target="eRhAELS6R_RbNOVsheLl-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-42" value="initWebsocketApi(data.value, socket);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2250" y="560" width="260" height="32" as="geometry" />
         </mxCell>
@@ -199,6 +202,18 @@
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-45" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 10px; text-align: left; white-space: pre; background-color: rgb(31, 31, 31); color: rgb(220, 220, 170);&quot;&gt;getCompleteOffer&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 10px; text-align: left; white-space: pre; background-color: rgb(31, 31, 31);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 10px; text-align: left; white-space: pre; background-color: rgb(31, 31, 31); color: rgb(156, 220, 254);&quot;&gt;webrtc&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 10px; text-align: left; white-space: pre; background-color: rgb(31, 31, 31);&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-47" target="eRhAELS6R_RbNOVsheLl-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-47" value="ws = new WebSocket(`ws://localhost:1984/api/ws?src=${value.streamName}`);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="630" width="460" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-52" value="Создаем подключение к сокету.&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;streamName - имя, переданное&lt;/span&gt;&amp;nbsp;пользователем&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="611" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-54" value="Каждый ровер будет иметь свой сокет (скорее всего)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="611" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
