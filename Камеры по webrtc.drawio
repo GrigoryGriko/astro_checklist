@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T10:22:14.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="HESiSw3TMOF8wvED4Bb0" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-04T10:24:28.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="uiU-grcY7AmZt3vhuh2W" version="24.2.2" type="github">
   <diagram name="Страница — 1" id="N2BBvwz7dYq2u03mfkgw">
-    <mxGraphModel dx="2206" dy="1205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,7 +72,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eRhAELS6R_RbNOVsheLl-6" value="vehicleSocket.emit( &#39;webrtc/offer&#39;, &lt;font color=&quot;#66cc00&quot;&gt;data&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eRhAELS6R_RbNOVsheLl-6" value="vehicleSocket.emit( &#39;webrtc/offer&#39;, &lt;font color=&quot;#4d9900&quot;&gt;data&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1730" y="190" width="220" height="30" as="geometry" />
         </mxCell>
         <UserObject label="vehicleSocket.on(&#39;webrtc/candidate&#39;)" id="eRhAELS6R_RbNOVsheLl-7">
@@ -89,7 +89,7 @@
           <mxGeometry x="2740" y="230" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-10" value="Пользователь" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
-          <mxGeometry x="1790" y="120" width="120" height="40" as="geometry" />
+          <mxGeometry x="1780" y="120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-11" value="Сервер&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
           <mxGeometry x="2020" y="185" width="120" height="40" as="geometry" />
@@ -116,19 +116,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-16" value="socket.on(&#39;webrtc/offer&#39;, VehiclesController.getWebrtcData);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1910" y="325" width="340" height="30" as="geometry" />
+          <mxGeometry x="1910" y="270" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-18" target="eRhAELS6R_RbNOVsheLl-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2050" y="454" as="targetPoint" />
+            <mxPoint x="2050" y="399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-18" value="VehiclesService.getWebrtc(data)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1980" y="402.5" width="200" height="30" as="geometry" />
+          <mxGeometry x="1980" y="347.5" width="200" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="io.of(&#39;/vehicleApi&#39;).to(&lt;font color=&quot;#66cc00&quot;&gt;vehicle.socket_id&lt;/font&gt;).emit(&#39;webrtc&#39;, data);" id="eRhAELS6R_RbNOVsheLl-21">
+        <UserObject label="io.of(&#39;/vehicleApi&#39;).to(&lt;font color=&quot;#4d9900&quot;&gt;vehicle.socket_id&lt;/font&gt;).emit(&#39;webrtc&#39;, data);" id="eRhAELS6R_RbNOVsheLl-21">
           <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-            <mxGeometry x="1910" y="472.5" width="340" height="30" as="geometry" />
+            <mxGeometry x="1910" y="417.5" width="340" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="eRhAELS6R_RbNOVsheLl-24" value="&#xa;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 10px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;streamName&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;stream_name&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;id&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;vehicleId&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;clientId&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(79, 193, 255); font-size: 10px;&quot;&gt;vehicleSocket&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;id&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;type&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(206, 145, 120); font-size: 10px;&quot;&gt;&#39;webrtc/offer&#39;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;value&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(197, 134, 192); font-size: 10px;&quot;&gt;await&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 10px;&quot;&gt;getCompleteOffer&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 10px;&quot;&gt;webrtc&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;),&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 10px;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;fontSize=10;" vertex="1" parent="1">
@@ -140,7 +140,7 @@
             <mxPoint x="1970" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eRhAELS6R_RbNOVsheLl-29" value="data" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="eRhAELS6R_RbNOVsheLl-29" value="data" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#4D9900;strokeColor=#4D9900;" vertex="1" parent="1">
           <mxGeometry x="1630" y="190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-29" target="eRhAELS6R_RbNOVsheLl-6">
@@ -150,15 +150,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-31" value="&#xa;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 11px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214); font-size: 11px;&quot;&gt;const&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(79, 193, 255); font-size: 11px;&quot;&gt;vehicle&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212); font-size: 11px;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;vehicles&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 11px;&quot;&gt;find&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;(&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;vehicle&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214); font-size: 11px;&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;vehicle&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;id&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212); font-size: 11px;&quot;&gt;===&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 11px;&quot;&gt;parseInt&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;id&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; );&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="455" width="350" height="65" as="geometry" />
+          <mxGeometry x="1370" y="402.5" width="350" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="eRhAELS6R_RbNOVsheLl-32" value="&lt;span style=&quot;color: rgb(102, 204, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;vehicle.socket_id&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="467.5" width="100" height="40" as="geometry" />
+        <mxCell id="eRhAELS6R_RbNOVsheLl-32" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;vehicle.socket_id&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4D9900;fontColor=#4D9900;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="415" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="eRhAELS6R_RbNOVsheLl-32" parent="1" target="eRhAELS6R_RbNOVsheLl-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1570" y="555" as="sourcePoint" />
-            <mxPoint x="1680" y="550" as="targetPoint" />
+            <mxPoint x="1870" y="432.5" as="sourcePoint" />
+            <mxPoint x="1680" y="495" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-31" target="eRhAELS6R_RbNOVsheLl-32">
@@ -168,19 +168,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-36" value="COMMUNICATE" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
-          <mxGeometry x="2320" y="467.5" width="120" height="40" as="geometry" />
+          <mxGeometry x="2320" y="412.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eRhAELS6R_RbNOVsheLl-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-21" target="eRhAELS6R_RbNOVsheLl-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2170" y="610" as="sourcePoint" />
-            <mxPoint x="2240" y="610" as="targetPoint" />
+            <mxPoint x="2170" y="555" as="sourcePoint" />
+            <mxPoint x="2240" y="555" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eRhAELS6R_RbNOVsheLl-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-36">
+        <mxCell id="eRhAELS6R_RbNOVsheLl-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRhAELS6R_RbNOVsheLl-36" target="eRhAELS6R_RbNOVsheLl-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2260" y="498" as="sourcePoint" />
-            <mxPoint x="2380" y="580" as="targetPoint" />
+            <mxPoint x="2260" y="443" as="sourcePoint" />
+            <mxPoint x="2380" y="525" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eRhAELS6R_RbNOVsheLl-41" value="send(data);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="494" width="90" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
